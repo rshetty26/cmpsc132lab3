@@ -9,4 +9,4 @@ The JUMP game consists of a board of size n represented as a Python list that co
 
 In this board, there are multiple ways to get to the end. Starting always at 0 , our cost so far is 0 . We could then jump to 5 , then jump to 25 , then jump to 17 , then move to 4 and finally jump to 3 for a total cost of 54 . However, if we jump to 5 , move to 23 , jump to 13 , jump to 4 and finally jump to 3 we get a lower cost of 48 . The play_jump function implements this game assuming the board is at most size 15.
 
-The neightbor function takes a positive integer n and a default argument prev and returns the number of digits in n that have the same digit to its left or to its right. 
+The neighbor function takes a positive integer n and a default argument prev and returns the number of digits in n that have the same digit to its left or to its right. 
